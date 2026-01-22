@@ -1,0 +1,36 @@
+# Docker data and volumes
+minio-data/
+postgres-data/
+spark-data/
+logs/
+plugins/
+data/
+*.jar
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Spark/Hadoop
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.env
+.ipynb_checkpoints/
+
+# Exclusions demandées
+*.log
+*.csv
+*.md
+!README.md # Optionnel: Garder le README principal ou non? 
+# L'utilisateur a dit "tout sauf markdown", donc j'exclus tout .md
